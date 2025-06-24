@@ -61,9 +61,6 @@ Infrastructure is provisioned with **CloudFormation in Region 1** and **Terrafor
 
 
 
-
-
-
 ## 5. 🌩 CloudFormation Deployment – Region 1
 
 **📁 File**: `infra/cloudformation/template.yaml`
