@@ -1,0 +1,22 @@
+                🌐 Clients (Users/Web Browsers)
+                         │
+                         ▼
+              🌍 Route 53 (Global DNS + Failover)
+                   │                  │
+           ┌───────┘                  └───────┐
+           ▼                                 ▼
+   🏙️ Region A (us-east-1)           🏙️ Region B (us-west-1)
+           │                                 │
+           ▼                                 ▼
+     ALB (Ingress)                      ALB (Ingress)
+           │                                 │
+           ▼                                 ▼
+      Amazon EKS                        Amazon EKS
+     ┌────────────┐                   ┌────────────┐
+     │ Frontend   │                   │ Frontend   │
+     │ Backend    │                   │ Backend    │
+     └────────────┘                   └────────────┘
+           │                                 │
+           ▼                                 ▼
+     Amazon RDS (MySQL)                Amazon RDS (Replica)
+
