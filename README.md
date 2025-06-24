@@ -1,6 +1,6 @@
 # AWS_Capstone_Project
 
-# 🌍 Employee Manager – Multi-Region Deployment with Route 53 Failover
+# 🌍 Employee Manager service – Multi-Region Deployment with Route 53 Failover
 
 ## 1. 🧾 Introduction
 
