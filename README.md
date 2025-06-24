@@ -36,30 +36,7 @@ Infrastructure is provisioned with **CloudFormation in Region 1** and **Terrafor
 
 ## 4. 🏗️ Overall Architecture
 
-                🌐 Clients (Users/Web Browsers)
-                         │
-                         ▼
-              🌍 Route 53 (Global DNS + Failover)
-                   │                  │
-           ┌───────┘                  └───────┐
-           ▼                                 ▼
-   🏙️ Region A (us-east-1)           🏙️ Region B (us-west-1)
-           │                                 │
-           ▼                                 ▼
-     ALB (Ingress)                      ALB (Ingress)
-           │                                 │
-           ▼                                 ▼
-      Amazon EKS                        Amazon EKS
-     ┌────────────┐                   ┌────────────┐
-     │ Frontend   │                   │ Frontend   │
-     │ Backend    │                   │ Backend    │
-     └────────────┘                   └────────────┘
-           │                                 │
-           ▼                                 ▼
-     Amazon RDS (MySQL)                Amazon RDS (Replica)
-
-
-
+<img src="https://raw.githubusercontent.com/KIREETI1234/AWS_Capstone_Project/main/architecture.png" alt="Architecture Diagram" height="400" width="400"/>
 
 ## 5. 🌩 CloudFormation Deployment – Region 1
 
