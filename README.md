@@ -209,7 +209,7 @@ artifacts:
  
 ## 12. Author
  
-**Arjun Koppineni**
+**sai yaswanth**
 
 GitHub: (http://aH0-STS/AWS_CAPSTONE_PROJECT)
  
