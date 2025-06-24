@@ -86,9 +86,9 @@ terraform apply
 
 | ----------- | --------- | ------------- | ------------ |
 
-| A (Alias)   | us-east-1 | PRIMARY       | Enabled      |
+| A (Alias)   | us-west-1 | PRIMARY       | Enabled      |
 
-| A (Alias)   | us-west-2 | SECONDARY     | N/A          |
+| A (Alias)   | us-west-2 | SECONDARY     | Enabled      |
  
 > If primary ALB is unhealthy, traffic fails over to secondary.
  
@@ -211,7 +211,7 @@ artifacts:
  
 **Arjun Koppineni**
 
-GitHub: [@arjunkoppineni](https://github.com/arjunkoppineni)
+GitHub: (http://aH0-STS/AWS_CAPSTONE_PROJECT)
  
 ---
  
