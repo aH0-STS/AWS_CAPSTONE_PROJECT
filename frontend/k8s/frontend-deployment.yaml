@@ -19,7 +19,7 @@ spec:
         - name: ecr-registry-secret
       containers:
         - name: frontend
-          image: 084828586975.dkr.ecr.us-east-1.amazonaws.com/three-tier-frontend:latest
+          image: 522814735019.dkr.ecr.us-east-1.amazonaws.com/employeefront:latest
           ports:
             - containerPort: 80
 ---
